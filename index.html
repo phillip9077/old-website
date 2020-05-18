@@ -4,12 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Phillip Wei's Website</title>
 </head>
 
 <body>
+    <div class="content">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
 
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <script src="./js/hamburger.js"></script>
+        </nav>
+        <header id="home">
+            <div class="hero">
+                <h1 class="title">Welcome! My name is Phillip Wei.</h1>
+                <a href="#about">
+                    <button class="btn">Read More</button>
+                </a>
+            </div>
+            <script src="./js/title.js"></script>
+        </header>
+        <section id="about">
+            <p class="about_paragraph">
+                I'm currently a second year student at Northeastern University pursuing a B.S. in Computer Science and Biology. I'm most intrigued about the interdisciplinary opportunities in my major, especially regarding the field of bioinformatics. 
+            </p>
+            <p class="about_paragraph">Some of my hobbies include:</p>
+            <ul class="about_list">
+                <li>Being informed about current events</li>
+                <li>Exercise for baseball/general health</li>
+                <li>Watch various Netflix shows</li>
+            </ul>
+            <!--<p>
+                When I am not coding or reading up on stem cells, I like to keep up with current events, to exercise for baseball/general health, or to watch various Netflix shows (ask me for recommendations!)
+            </p>-->
+        </section>
+        <section id="work">
+            <h2>Work Experiences</h2>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+        </section>
+    </div>
 </body>
 
 </html>
