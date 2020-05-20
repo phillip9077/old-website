@@ -1,6 +1,6 @@
 # Phillip Wei's Personal Website/Portfolio
 
-**Version 1.0**
+**Version 1.1**
 
 HTML code files and a CSS file for my portfolio website
 
@@ -8,4 +8,4 @@ This is a website dedicated to highlighting my computer science portfolio. I wan
 my personal projects and experiences, but also to learn HTML/CSS. Just like any coding language, I know I have only scratched the surface,
 but any new topic requires us to start from scratch!
 
-Right now I am mainly experimenting with CSS and seeing how I can incorporate a more elegant website design. Once I better understand CSS, I will finish the rest of my website accordingly. Perhaps after the main structure and design of the website is finished, I could learn JavaScript and make my website even more interactive.
+I have acquired a better understanding of CSS, so I'm currently experimenting with simple JavaScript animations/transitions. The next step for me is to research on how to make the website more professional and well-designed, perhaps by discussing future plans with web design professors or my fellow web design peers. 
