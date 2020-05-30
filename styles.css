@@ -191,11 +191,11 @@ span.fade{
 }
 
 .body_paragraph {
-    padding: 0px 10px 10px 40px;
+    padding: 0px 30px 10px 40px;
 }
 
 .body_list {
-    margin: 0px 0px 10px 70px;
+    margin: 0px 30px 10px 70px;
 }
 
 .slider {
@@ -279,7 +279,7 @@ span.fade{
 
     .body_list {
         font-size: 20px;
-        margin: 0px 0px 50px 70px;
+        margin: 0px 120px 50px 70px;
     }
 
     a:link {
