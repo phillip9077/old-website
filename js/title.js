@@ -1,4 +1,4 @@
-const text = document.querySelector('.title');
+const text = document.querySelector('.loading-title');
 const strText = text.textContent;
 const splitText = strText.split("");
 text.textContent = "";
@@ -12,9 +12,14 @@ for(let i = 0; i < splitText.length; i++) {
     }
     text.innerHTML += "<span>" + char + "</span>";
 }
- 
+
+
 let char = 0;
-let timer = setInterval(onTick, 50);
+let timer = setTimeout(run, 4600);
+
+function run() {
+    setInterval(onTick, 350);
+}
 
 function onTick() {
     const span = text.querySelectorAll('span')[char];

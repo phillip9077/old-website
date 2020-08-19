@@ -2,8 +2,6 @@
 
 **Version 1.1**
 
-HTML code files and a CSS file for my portfolio website
-
 This is a website dedicated to highlighting my computer science portfolio. I wanted to produce this website to, not only showcase
 my personal projects and experiences, but also to learn HTML/CSS. Just like any coding language, I know I have only scratched the surface,
 but any new topic requires us to start from scratch!
