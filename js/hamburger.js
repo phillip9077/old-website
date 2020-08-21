@@ -1,8 +1,6 @@
-const menu = document.querySelector(".hamburger");
-const navbar = document.querySelector(".navbar");
-const homepage = document.querySelector(".homepage");
-
-menu.addEventListener("click", function() {
-    navbar.classList.toggle("change"); 
-    homepage.classList.toggle("hidden");
-});
+function menuToggle() {
+    var menu = document.getElementById('menu-content');
+    var nav = document.getElementById('hamburger');
+    menu.classList.toggle('active');
+    nav.classList.toggle('active');
+}

@@ -32,24 +32,25 @@
             $(".loader").delay(9000).fadeOut(1000);
             $(".loader-title").delay(9000).fadeOut(1000);
             $(".homepage").delay(9500).hide().fadeIn(1000);
-            $(".navbar").delay(9500).hide().fadeIn(1000);
+            $("#hamburger").delay(9500).hide().fadeIn(1000);
         });
     </script>
-    <div class="navbar">
-        <div class="hamburger">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-        </div>
-        <div class="menu-content"> 
-            <!--<a href="" class="nav-links">About</a>
-            <a href="" class="nav-links">Work</a>
-            <a href="" class="nav-links">Projects</a>-->
-        </div>
+    <div id="hamburger" onclick="menuToggle()">
+        <div class="line" id="line-1"></div>
+        <div class="line" id="line-2"></div>
+        <div class="line" id="line-3"></div>
     </div>
-    <div class="homepage">
+    <div id="menu-content">
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div> 
+    <script src="./js/hamburger.js"></script>
+    <div class="homepage"> 
         <h3 class="homepage-title">Phillip Wei</h3>
     </div>
-    <script src="./js/hamburger.js"></script>
 </body>
 </html>
