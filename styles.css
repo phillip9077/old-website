@@ -153,14 +153,14 @@
     font-size: 36px;
     color: white;
     font-weight: normal;
-    padding: 50px 0px 20px 0px;
+    padding: 30px 0px 20px 0px;
 }
 
-.homepage-paragraph { color: white; padding: 0px 0px 5px 0px;}
+.homepage-paragraph { color: white; padding: 0px 0px 10px 0px;}
 
 .homepage-img {
     border-radius: 10%;
-    height:35%;
+    height:45%;
     width: auto;
     margin: -100px 0px 0px 0px;
 }
@@ -229,7 +229,7 @@ span.fade { opacity: 1; }
     .logo {
         position: fixed; 
         top: 20px; 
-        right: 1180px;
+        right: 1300px;
     }
     
 
@@ -255,10 +255,14 @@ span.fade { opacity: 1; }
     }
 
     .homepage-title {
+        font-size: 40px;
         padding: 35px 0px 20px 0px;
     }
 
-    .homepage-paragraph { padding: 0px 0px 5px 0px;}
+    .homepage-paragraph { 
+        font-size: 24px;
+        padding: 0px 0px 15px 0px;
+    }
 
     .about-container {
         background-color: rgb(0, 137, 222);
@@ -277,16 +281,17 @@ span.fade { opacity: 1; }
     }
 
     .about-me {
-        margin: 0px 0px 0px 0px;
+        font-size: 24px;
+        margin: 0px 0px 0px 50px;
     }
 
     .about-img {
         border-radius: 10%;
-        height: 350px; /* This might need to change depending on how it looks on phones other than iPhone X */
+        height: 400px; /* This might need to change depending on how it looks on phones other than iPhone X */
         width: auto;
         position: absolute;
-        right: 150px;
-        top: 140px;
+        right: 110px;
+        top: 270px;
     }
     
 }
