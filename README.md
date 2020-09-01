@@ -1,6 +1,6 @@
 # Phillip Wei's Personal Website/Portfolio
 
-**Version 1.1**
+**Version 1.3**
 
 This is a website dedicated to highlighting my computer science portfolio. I wanted to produce this website to, not only showcase
 my personal projects and work experiences, but also to learn more about web design. I know I have only scratched the surface,
