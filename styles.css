@@ -172,21 +172,20 @@
 
 .about-container {
     background-color: rgb(0, 137, 222);
+    height: 115vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 90vh;
-    width: 100vw;
 }
 
 .about-me {
     color: white;
-    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .about-me p {
-    padding: 0px 30px 30px 40px;
+    padding: 0px 30px 20px 40px;
 }
 
 .about-me p a {
@@ -196,7 +195,6 @@
 }
 
 .about-img {
-    margin: 0px 0px 20px 0px;
     border-radius: 10%;
     height: 270px; /* This might need to change depending on how it looks on phones other than iPhone X */
     width: auto;
@@ -204,7 +202,7 @@
 
 .work-container {
     background-color: rgb(0, 137, 222);
-    height: 90vh;
+    height: 87.7vh;
     width: 100vw;
     color: white;
     display: flex;
@@ -216,7 +214,7 @@
 
 .project-container {
     background-color: rgb(0, 137, 222);
-    height: 90vh;
+    height: 87.7vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -232,20 +230,20 @@
 }
 
 .project-list p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 30px 0px 20px;
 }
 
 .project-list a {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 20px 0px 20px;
     text-decoration-color: yellow;
 }
 
 .skills-container {
     background-color: rgb(0, 137, 222);
-    height: 90vh;
+    height: 87.7vh;
     width: 100vw;
     padding: 0px 20px 0px 20px;
 }
@@ -326,7 +324,7 @@ span.fade { opacity: 1; }
     }
 
     .about-me {
-        font-size: 24px;
+        font-size: 26px;
         margin: 0px 0px 0px 50px;
     }
 
@@ -336,26 +334,26 @@ span.fade { opacity: 1; }
 
     .about-img {
         border-radius: 10%;
-        height: 60%; 
-        margin: 0px 50px 0px 0px;
+        height: 55%; 
+        margin: 0px 120px 0px 0px;
         width: auto;
     }
 
     .work-container {
-        height: 85.5vh;
+        height: 88.5vh;
     }
 
     .project-container {
         height: 85.5vh;
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .project-list p {
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .project-list a {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .skills-container {
@@ -363,7 +361,7 @@ span.fade { opacity: 1; }
     }
     
     .skills-container p {
-        font-size: 24px;
+        font-size: 30px;
         padding: 25px 180px 10px 200px;
     }
     
