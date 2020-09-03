@@ -15,7 +15,7 @@ for(let i = 0; i < splitText.length; i++) {
 
 
 let char = 0;
-let timer = setTimeout(run, 4600);
+let timer = setTimeout(run, 3500);
 
 function run() {
     setInterval(onTick, 350);

@@ -11,41 +11,43 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <a href="index.html">PW</a>
+    <div class="background">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">PW</a>
+            </div>
+            <div id="hamburger" onclick="menuToggle()">
+                <div class="line" id="line-1"></div>
+                <div class="line" id="line-2"></div>
+                <div class="line" id="line-3"></div>
+            </div>
         </div>
-        <div id="hamburger" onclick="menuToggle()">
-            <div class="line" id="line-1"></div>
-            <div class="line" id="line-2"></div>
-            <div class="line" id="line-3"></div>
+        <div id="menu-content">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+            <div class="contact_info">
+                <a href="https://www.facebook.com/phillip.wei.9" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/phillip-w/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+                <a href="mailto:wei.ph@northeastern.edu"><i class="fas fa-2x fa-envelope"></i></a>
+            </div>
+        </div> 
+        <script src="./js/hamburger.js"></script>
+        <div class="project-container">
+            <ol class="project-list">
+                <li>
+                    This website
+                    <p>A personal portfolio to document my professional endeavors</p>
+                    <a href="https://github.com/phillip9077/phillip9077.github.io" target="_blank">GitHub Reference</a>            
+                </li>
+                <li>
+                    More to come!
+                </li>
+            </ol>
         </div>
-    </div>
-    <div id="menu-content">
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
-        </ul>
-        <div class="contact_info">
-            <a href="https://www.facebook.com/phillip.wei.9" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a>
-            <a href="https://www.linkedin.com/in/phillip-w/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-            <a href="mailto:wei.ph@northeastern.edu"><i class="fas fa-2x fa-envelope"></i></a>
-        </div>
-    </div> 
-    <script src="./js/hamburger.js"></script>
-    <div class="project-container">
-        <ol class="project-list">
-            <li>
-                This website
-                <p>A personal portfolio to document my professional endeavors</p>
-                <a href="https://github.com/phillip9077/phillip9077.github.io" target="_blank">GitHub Reference</a>            
-            </li>
-            <li>
-                More to come!
-            </li>
-        </ol>
     </div>
 </body>
 </html>

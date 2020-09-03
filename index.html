@@ -29,42 +29,46 @@
         // jQuery code for fading out the loader
         // and fading in the homepage
         $(document).ready(function() {
-            $(".loader").delay(9000).fadeOut(1000);
-            $(".loader-title").delay(9000).fadeOut(1000);
-            $(".homepage").delay(9500).hide().fadeIn(1000);
-            $("#hamburger").delay(9500).hide().fadeIn(1000);
-            $(".logo").delay(9500).hide().fadeIn(1000);
+            $(".loader").delay(7500).fadeOut(800);
+            $(".loader-title").delay(7500).fadeOut(800);
+            $(".homepage").delay(8000).hide().fadeIn(800);
+            $("#hamburger").delay(8000).hide().fadeIn(800);
+            $(".logo").delay(8000).hide().fadeIn(800);
         });
     </script>
-    <div class="navbar">
-        <div class="logo">
-            <a href="index.html">PW</a>
+    <div class="background">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">PW</a>
+            </div>
+            <div id="hamburger" onclick="menuToggle()">
+                <div class="line" id="line-1"></div>
+                <div class="line" id="line-2"></div>
+                <div class="line" id="line-3"></div>
+            </div>
         </div>
-        <div id="hamburger" onclick="menuToggle()">
-            <div class="line" id="line-1"></div>
-            <div class="line" id="line-2"></div>
-            <div class="line" id="line-3"></div>
+        <div id="menu-content">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+            <div class="contact_info">
+                <a href="https://www.facebook.com/phillip.wei.9" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/phillip-w/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+                <a href="mailto:wei.ph@northeastern.edu"><i class="fas fa-2x fa-envelope"></i></a>
+            </div>
+        </div> 
+        <script src="./js/hamburger.js"></script>
+        <div class="homepage"> 
+            <img class="homepage-img" src="./images/profile 1.jpeg" alt="Profile Pic">
+            <!--Will implement an image slider here-->
+            <!--<img class="about-img" src="./images/profile 2.jpg" alt="Profile Pic 2">-->
+            <h3 class="homepage-title">Phillip Wei</h3>
+            <p class="homepage-paragraph">Rising sophomore at Northeastern University</p>
+            <p class="homepage-paragraph">Computer Science & Biology Major</p>
         </div>
-    </div>
-    <div id="menu-content">
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
-        </ul>
-        <div class="contact_info">
-            <a href="https://www.facebook.com/phillip.wei.9" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a>
-            <a href="https://www.linkedin.com/in/phillip-w/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-            <a href="mailto:wei.ph@northeastern.edu"><i class="fas fa-2x fa-envelope"></i></a>
-        </div>
-    </div> 
-    <script src="./js/hamburger.js"></script>
-    <div class="homepage"> 
-        <img class="homepage-img" src="./images/profile 1.jpeg" alt="Profile Pic">
-        <h3 class="homepage-title">Phillip Wei</h3>
-        <p class="homepage-paragraph">Rising sophomore at Northeastern University</p>
-        <p class="homepage-paragraph">Computer Science & Biology Major</p>
     </div>
 </body>
 </html>
