@@ -5,21 +5,23 @@
     padding: 0px;
 }
 
-.loader {
-    align-items: center;
+.loader-box {
     background-color: rgb(0, 137, 222);
+    height: 100vh;
+    padding: 300px 0px;
+}
+
+.loader-icons {
+    align-items: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 50vh;
     width: 100vw;
 }
 
 .loader-title {
-    background-color: rgb(0, 137, 222);
     display: flex;
     justify-content: center;
-    height: 50vh;
     width: 100vw;
     padding: 15px 0px;
 }
@@ -295,13 +297,13 @@ span.fade { opacity: 1; }
 
     .homepage-img {
         border-radius: 10%;
-        height: 500px;
+        height: 300px;
         width: auto;
         margin: 0px 0px 0px 0px;
     }
 
     .homepage-title {
-        font-size: 44px;
+        font-size: 40px;
         padding: 35px 0px 20px 0px;
     }
 
@@ -316,7 +318,7 @@ span.fade { opacity: 1; }
 
     .about-me {
         font-size: 26px;
-        margin: 200px 0px 0px 50px;
+        margin: 100px 0px 0px 50px;
     }
 
     .about-me p {

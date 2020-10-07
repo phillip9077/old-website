@@ -14,23 +14,27 @@
 </head>
 
 <body>
-    <div class="loader">
-        <i class="fas fa-3x fa-laptop-code icon"></i>
-        <i class="fas fa-3x fa-dna icon"></i> 
-        <i class="fas fa-3x fa-music icon"></i>
-        <i class="fas fa-3x fa-gamepad icon"></i>
-    </div>
-    <div class="loader-title">
-        <h2 class="loading-title">Loading...</h2>
-        <script src="./js/title.js"></script>
+    <div class="loader-box">   
+        <div class="loader-icons">
+            <i class="fas fa-3x fa-laptop-code icon"></i>
+            <i class="fas fa-3x fa-dna icon"></i> 
+            <i class="fas fa-3x fa-music icon"></i>
+            <i class="fas fa-3x fa-gamepad icon"></i>
+        </div>
+        <div class="loader-title">
+            <h2 class="loading-title">Loading...</h2>
+            <script src="./js/title.js"></script>
+        </div>
     </div>
     <script src="./js/loader.js"></script>
     <script>
         // jQuery code for fading out the loader
         // and fading in the homepage
         $(document).ready(function() {
-            $(".loader").delay(7500).fadeOut(800);
+            $(".loader-box").delay(7500).fadeOut(800);
+            $(".loader-icons").delay(7500).fadeOut(800);
             $(".loader-title").delay(7500).fadeOut(800);
+            $(".background").delay(8000).hide().fadeIn(800);
             $(".homepage").delay(8000).hide().fadeIn(800);
             $("#hamburger").delay(8000).hide().fadeIn(800);
             $(".logo").delay(8000).hide().fadeIn(800);
@@ -63,7 +67,7 @@
         <script src="./js/hamburger.js"></script>
         <div class="homepage"> 
             <img class="homepage-img" src="./images/profile 2.jpg" alt="Profile Pic 2">
-            <!--<img class="homepage-img" src="./images/profile 1.jpeg" alt="Profile Pic">-->
+            <!--<img class="homepage-img" src="./images/profile 1.jpeg" alt="Profile Pic">-->   
             <!--Will implement an image slider here-->
             <h3 class="homepage-title">Phillip Wei</h3>
             <p class="homepage-paragraph">Rising sophomore at Northeastern University</p>
